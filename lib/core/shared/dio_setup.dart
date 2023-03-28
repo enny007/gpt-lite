@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-const api_key = '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';
+const api_key = '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';
 Dio dio() {
   var dio = Dio(
     BaseOptions(

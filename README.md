@@ -3,6 +3,7 @@
 A chatbot using Open AI gpt-3.5.turbo api
 
 PACKAGES USED
+
 hooks_riverpod: state management
 dio: internet connectivity
 freezed: for model class generation

@@ -58,7 +58,10 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
             onPressed: () async {
               await Services.showModalSheet(context);
             },
-            icon: const Icon(Icons.more_vert_rounded),
+            icon: const Icon(
+              Icons.more_vert_rounded,
+              color: Colors.white,
+            ),
           ),
         ],
       ),
@@ -93,7 +96,6 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
                       child: TextField(
                         focusNode: focusNode,
                         controller: textEditingController,
-                        
                         decoration: const InputDecoration.collapsed(
                           hintText: 'How can I help you',
                           hintStyle: TextStyle(
