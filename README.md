@@ -5,13 +5,18 @@ A chatbot using Open AI gpt-3.5.turbo api
 PACKAGES USED
 
 hooks_riverpod: state management
+
 dio: internet connectivity
+
 freezed: for model class generation
+
 animated_text_kit: To mimic the animation of the response sent by the ai
 
 
 FOLDER STRUCTURE
+
 I used the feature first layered architecture shown below
+
 - application
 - domain
 - infrastructure
