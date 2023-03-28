@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter_ai/core/domain/chat_model.dart';
 import 'package:flutter_ai/core/domain/models_model.dart';
-import 'package:flutter_ai/core/shared/dio_setup.dart';
+import 'package:flutter_ai/core/infrastructure/dio_Setup/dio_setup.dart';
 
 class OpenAi {
   Future<List<ModelsModel>> getModels() async {
