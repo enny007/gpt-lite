@@ -34,7 +34,8 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
     final textEditingController = useTextEditingController();
     final focusNode = useFocusNode();
     final listScrollController = useScrollController();
-    final modelId = ref.watch(modelNotifier.notifier).state.currentModel;
+    final modelId = ref.watch(modelNotifier).currentModel;
+    //adjusted
     final chatList = ref.watch(chatNotifierProvider.notifier);
     void scrollListener() {
       listScrollController.animateTo(

@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-const apiKey = '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';
+const apiKey = String.fromEnvironment('openAiKey');
 Dio dio() {
   var dio = Dio(
     BaseOptions(
